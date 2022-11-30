@@ -5,19 +5,19 @@ const app = getApp()
 Page({
   data: {
     banners: [
-      {
-        id: 1,
-        pic:'https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/162038/16/32655/68895/637598caE41a32aeb/739f9cd30edf2383.jpg!q80.dpg',
-      },
-      {
-        id: 2,
-        pic: 'https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/222561/8/16718/198784/62ce66e4E44808eaa/693a08e8ba9d78e4.jpg!q70.dpg.webp'
-      },
-      {
-        id: 3,
-        pic: 'https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/137222/12/24601/95100/62d4b4d2E7f093638/9dcef4f18a221085.jpg!q70.dpg.webp'
-      }
-    ]
+        {
+          id: 1,
+          pic:'https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/162038/16/32655/68895/637598caE41a32aeb/739f9cd30edf2383.jpg!q80.dpg',
+        },
+        {
+          id: 2,
+          pic: 'https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/222561/8/16718/198784/62ce66e4E44808eaa/693a08e8ba9d78e4.jpg!q70.dpg.webp'
+        },
+        {
+          id: 3,
+          pic: 'https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/137222/12/24601/95100/62d4b4d2E7f093638/9dcef4f18a221085.jpg!q70.dpg.webp'
+        }
+      ]
   },
   // 事件处理函数
   bindViewTap() {
